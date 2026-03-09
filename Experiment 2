@@ -1,0 +1,177 @@
+PROBLEM STATEMENT :
+Write a program to implement control flow statements and looping statements in python.
+
+ALGORITHM :
+STEP 1 : Start the program.
+STEP 2 : Repeat the process for 5 players using a loop.
+STEP 3 : Display a message asking the user to enter the details of the player.
+STEP 4 : Read the following inputs from the user:
+         > Player name
+         > Runs scored
+         > Balls faced
+         > Wickets taken
+         > Runs conceded while bowling
+         > Number of overs bowled
+         > Number of catches taken
+STEP 5 : Calculate the strike rate using the formula:
+         Strike Rate = (Runs ÷ Balls) × 100.
+STEP 6 : Calculate the economy rate using the formula:
+         Economy = Runs Conceded ÷ Overs Bowled.
+STEP 7 : Determine the batting performance based on runs and strike rate.
+STEP 8 : Determine the bowling performance based on wickets taken and economy rate.
+STEP 9 : Determine the fielding performance based on the number of catches.
+STEP 10 : Based on batting and bowling results, decide the all-rounder performance level.
+STEP 11 : Display the player’s name, strike rate, economy rate, batting category, bowling category, fielding category, and all-rounder decision.
+STEP 12 : Repeat the process until all 5 players are evaluated.
+STEP 13 : Stop the program.
+
+SOURCE CODE :
+for player in range(1, 6):
+    print("\nEnter details for Player", player)
+
+    name = input("Player Name: ")
+    runs = int(input("Runs scored: "))
+    balls = int(input("Balls faced: "))
+    wickets = int(input("Wickets taken: "))
+    runs_conceded = int(input("Runs conceded: "))
+    overs = int(input("Overs bowled: "))
+    catches = int(input("Catches taken: "))
+
+    strike_rate = (runs / balls) * 100
+    economy_rate = runs_conceded / overs
+
+    if runs >= 50 and strike_rate >= 120:
+        batting_status = "Excellent Batter"
+    elif runs >= 30 and strike_rate >= 100:
+        batting_status = "Good Batter"
+    elif runs >= 20:
+        batting_status = "Average Batter"
+    else:
+        batting_status = "Below Average Batter"
+
+    if wickets >= 3 and economy_rate <= 6:
+        bowling_status = "Excellent Bowler"
+    elif wickets >= 2 and economy_rate <= 8:
+        bowling_status = "Good Bowler"
+    elif wickets >= 1:
+        bowling_status = "Average Bowler"
+    else:
+        bowling_status = "Needs Improvement"
+
+    if catches >= 2:
+        fielding_status = "Outstanding Fielder"
+    elif catches == 1:
+        fielding_status = "Active Fielder"
+    else:
+        fielding_status = "Low Fielding Impact"
+
+    if batting_status == "Excellent Batter" and bowling_status == "Excellent Bowler":
+        all_rounder_status = "Star All-Rounder"
+    elif batting_status == "Good Batter" and bowling_status == "Good Bowler":
+        all_rounder_status = "Strong All-Rounder"
+    elif batting_status == "Good Batter" or bowling_status == "Good Bowler":
+        all_rounder_status = "Useful All-Rounder"
+    else:
+        all_rounder_status = "Needs Development"
+
+    print("\n--- Player Performance Report ---")
+    print("Name:", name)
+    print("Strike Rate:", strike_rate)
+    print("Economy Rate:", economy_rate)
+    print("Batting Performance:", batting_status)
+    print("Bowling Performance:", bowling_status)
+    print("Fielding Performance:", fielding_status)
+    print("All-Rounder Rating:", all_rounder_status)
+
+OUTPUT :
+Enter details for Player 1
+Player Name: HARDIK
+Runs scored: 22
+Balls faced: 20
+Wickets taken: 4
+Runs conceded: 18
+Overs bowled: 2
+Catches taken: 0
+
+--- Player Performance Report ---
+Name: HARDIK
+Strike Rate: 110.00000000000001
+Economy Rate: 9.0
+Batting Performance: Average Batter
+Bowling Performance: Average Bowler
+Fielding Performance: Low Fielding Impact
+All-Rounder Rating: Needs Development
+
+Enter details for Player 2
+Player Name: VIRAT
+Runs scored: 35
+Balls faced: 30
+Wickets taken: 2
+Runs conceded: 25
+Overs bowled: 4
+Catches taken: 4
+
+--- Player Performance Report ---
+Name: VIRAT
+Strike Rate: 116.66666666666667
+Economy Rate: 6.25
+Batting Performance: Good Batter
+Bowling Performance: Good Bowler
+Fielding Performance: Outstanding Fielder
+All-Rounder Rating: Strong All-Rounder
+
+Enter details for Player 3
+Player Name: RAHUL
+Runs scored: 65
+Balls faced: 60
+Wickets taken: 5
+Runs conceded: 12
+Overs bowled: 6
+Catches taken: 8
+
+--- Player Performance Report ---
+Name: RAHUL
+Strike Rate: 108.33333333333333
+Economy Rate: 2.0
+Batting Performance: Good Batter
+Bowling Performance: Excellent Bowler
+Fielding Performance: Outstanding Fielder
+All-Rounder Rating: Useful All-Rounder
+
+Enter details for Player 4
+Player Name: SAM
+Runs scored: 45
+Balls faced: 40
+Wickets taken: 3
+Runs conceded: 20
+Overs bowled: 5
+Catches taken: 6
+
+--- Player Performance Report ---
+Name: SAM
+Strike Rate: 112.5
+Economy Rate: 4.0
+Batting Performance: Good Batter
+Bowling Performance: Excellent Bowler
+Fielding Performance: Outstanding Fielder
+All-Rounder Rating: Useful All-Rounder
+
+Enter details for Player 5
+Player Name: ALEX
+Runs scored: 70
+Balls faced: 50
+Wickets taken: 4
+Runs conceded: 26
+Overs bowled: 7
+Catches taken: 8
+
+--- Player Performance Report ---
+Name: ALEX
+Strike Rate: 140.0
+Economy Rate: 3.7142857142857144
+Batting Performance: Excellent Batter
+Bowling Performance: Excellent Bowler
+Fielding Performance: Outstanding Fielder
+All-Rounder Rating: Star All-Rounder
+
+=== Code Execution Successful ===
