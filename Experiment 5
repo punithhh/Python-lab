@@ -1,0 +1,104 @@
+PROBLEM STATEMENT :
+Write a program to demonstrate tuple and related functions in python
+
+ALGORITHM :
+STEP 1: Start the program.
+STEP 2: Ask the user to enter the number of elements for the tuple.
+STEP 3: Create an empty list and read elements from the user using a loop.
+STEP 4: Convert the list into a tuple.
+STEP 5: Display the created tuple.
+STEP 6: Display the length of the tuple using the len() function.
+STEP 7: Access and display the first element of the tuple using indexing.
+STEP 8: Access and display the last element of the tuple using negative indexing.
+STEP 9: Display a slice of the tuple using slicing operation.
+STEP 10: Count the number of occurrences of a specific element in the tuple using the count() function.
+STEP 11: Find the index position of a particular element using the index() function.
+STEP 12: Find the maximum element in the tuple using max().
+STEP 13: Find the minimum element in the tuple using min().
+STEP 14: Display the sorted tuple elements using the sorted() function.
+STEP 15: Stop the program.
+
+SOURCE CODE :
+# Input number of elements
+n = int(input("Enter number of elements: "))
+
+# Temporary list to store elements
+temp_list = []
+
+# Reading elements
+for i in range(n):
+    value = int(input("Enter element: "))
+    temp_list.append(value)
+
+# Convert list to tuple
+t = tuple(temp_list)
+
+print("\nTuple elements:", t)
+
+# Length of tuple
+print("Length of tuple:", len(t))
+
+# Access elements
+print("First element:", t[0])
+print("Last element:", t[-1])
+
+# Slicing
+print("Tuple slice (first three elements):", t[0:3])
+
+# Count occurrences
+x = int(input("Enter element to count: "))
+print("Count of element:", t.count(x))
+
+# Index of element
+y = int(input("Enter element to find index: "))
+if y in t:
+    print("Index of element:", t.index(y))
+else:
+    print("Element not found in tuple")
+
+# Maximum and Minimum
+print("Maximum element:", max(t))
+print("Minimum element:", min(t))
+
+# Sum of elements
+print("Sum of elements:", sum(t))
+
+# Sorting tuple
+sorted_tuple = tuple(sorted(t))
+print("Sorted tuple:", sorted_tuple)
+
+# Tuple concatenation
+t2 = (100, 200)
+print("Tuple after concatenation:", t + t2)
+
+# Tuple repetition
+print("Tuple after repetition:", t * 2)
+
+OUTPUT :
+Enter number of elements: 8
+Enter element: 20
+Enter element: 40
+Enter element: 60
+Enter element: 60
+Enter element: 80
+Enter element: 100
+Enter element: 120
+Enter element: 140
+
+Tuple elements: (20, 40, 60, 60, 80, 100, 120, 140)
+Length of tuple: 8
+First element: 20
+Last element: 140
+Tuple slice (first three elements): (20, 40, 60)
+Enter element to count: 60
+Count of element: 2
+Enter element to find index: 80
+Index of element: 4
+Maximum element: 140
+Minimum element: 20
+Sum of elements: 620
+Sorted tuple: (20, 40, 60, 60, 80, 100, 120, 140)
+Tuple after concatenation: (20, 40, 60, 60, 80, 100, 120, 140, 100, 200)
+Tuple after repetition: (20, 40, 60, 60, 80, 100, 120, 140, 20, 40, 60, 60, 80, 100, 120, 140)
+
+=== Code Execution Successful ===
