@@ -10,7 +10,6 @@ Step 8 : Access object data using methods display(), grade(), and is_pass().
 Step 9 : Display student details, grade, and result on the screen.
 Step 10 : Stop the program.
 
-code:
 class Student:
     def __init__(self, name, age, marks):
         self.name = name
@@ -56,20 +55,3 @@ print("Result:", s1.is_pass())
 s2.display()
 print("Grade :", s2.grade())
 print("Result:", s2.is_pass())
-
-
-OUTPUT:
-
-Student Details
-Name : Rahul
-Age  : 20
-Marks: 85
-Grade : B
-Result: Pass
-
-Student Details
-Name : Anjali
-Age  : 19
-Marks: 92
-Grade : A
-Result: Pass
