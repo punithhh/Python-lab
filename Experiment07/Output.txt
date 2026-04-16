@@ -1,0 +1,15 @@
+OUTPUT:
+
+Student 1 Details
+Name : ZAY
+Age  : 20
+Marks: 85
+Grade : B
+Result: Pass
+
+Student 2 Details
+Name : ANNA
+Age  : 19
+Marks: 92
+Grade : A
+Result: Pass
