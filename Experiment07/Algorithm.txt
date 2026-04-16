@@ -1,0 +1,14 @@
+PROBLEM STATEMENT:
+Demonstrate use of object- oriented programming concepts.
+
+ALGORITHM:
+Step 1 : Start the program.
+Step 2 : Define a base class Person with name and age.
+Step 3 : Create a method show_person() to display basic details.
+Step 4 : Define a derived class Student inherited from Person.
+Step 5 : Add marks in the child class using constructor.
+Step 6 : Create methods grade() and result().
+Step 7 : Create objects of Student class.
+Step 8 : Call methods using objects.
+Step 9 : Display details, grade, and result.
+Step 10 : Stop the program.
