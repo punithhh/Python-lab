@@ -1,0 +1,27 @@
+OUTPUT :
+Enter the first string: Rafsha
+Enter the second string: Jabin
+
+Uppercase: RAFSHA
+Lowercase: rafsha
+Capitalized: Rafsha
+Title Case: Jabin
+Concatenated String: Rafsha Jabin
+First three characters: Raf
+Replace 'r' with 'R': Rafsha
+Split string1 using 'f': ['Ra', 'sha']
+Length of string1: 6
+Length of string2: 5
+Position of 'b' in string2: 2
+Count of 'a' in string1: 2
+Swapcase: rAFSHA
+First character of string1: R
+Last character of string1: a
+After strip: Rafsha
+Starts with 'a': False
+Ends with 'z': False
+Is alphabet: True
+Is digit: False
+Joined with hyphen: Rafsha-Jabin
+Enter a word to search in the string: b
+Word found in string 2
