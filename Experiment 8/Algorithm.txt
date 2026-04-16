@@ -1,1 +1,15 @@
+PROBLEM STATEMENT:
+Implement ‘re’ module in python
 
+ALGORITHM:
+Step 1 : Start the program.
+Step 2 : Import the re module.
+Step 3 : Accept an email text from the user.
+Step 4 : Use re.match() to check whether the text starts with letters.
+Step 5 : Use re.search() to find @ symbol.
+Step 6 : Use re.findall() to find all letters and digits.
+Step 7 : Use re.split() to split the text at @.
+Step 8 : Use re.sub() to replace . with _.
+Step 9 : Use re.finditer() to show positions of digits.
+Step 10 : Display all results.
+Step 11 : Stop the program.
