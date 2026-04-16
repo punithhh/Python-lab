@@ -1,0 +1,24 @@
+PROBLEM STATEMENT : 
+Write a program to demonstrate list and related functions in python
+
+ALGORITHM :
+STEP 1: Start the program.
+STEP 2: Create an empty list.
+STEP 3: Ask the user to enter the number of elements to be stored in the list.
+STEP 4: Use a loop to read elements from the user and add them to the list using the append() function.
+STEP 5: Display the list entered by the user.
+STEP 6: Insert a new element at a specific position using the insert() function.
+STEP 7: Add another element to the end of the list using append().
+STEP 8: Remove a particular element from the list using the remove() function.
+STEP 9: Delete the last element of the list using the pop() function.
+STEP 10: Find the length of the list using the len() function.
+STEP 11: Sort the list in ascending order using sort().
+STEP 12: Reverse the list using reverse().
+STEP 13: Find the maximum element using max().
+STEP 14: Find the minimum element using min().
+STEP 15: Count the number of occurrences of a specific element using count().
+STEP 16: Find the position of an element in the list using index().
+STEP 17: Copy the list using the copy() function.
+STEP 18: Clear all elements from the list using the clear() function.
+STEP 19: Display the results after each operation.
+STEP 20: Stop the program.
