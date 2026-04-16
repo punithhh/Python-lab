@@ -1,1 +1,25 @@
+PROBLEM STATEMENT :
+Write a program to implement Various string operations.
 
+ALGORITHM :
+STEP 1 : Start the program.
+STEP 2 : Read the first string from the user and store it in a variable.
+STEP 3 : Read the second string from the user and store it in another variable.
+STEP 4 : Convert the first string into uppercase using the appropriate string function and display the result.
+STEP 5 : Convert the first string into lowercase and display the result.
+STEP 6 : Concatenate the first and second strings with a space between them and display the combined string.
+STEP 7 : Convert the first string so that the first character becomes capitalized and display the result.
+STEP 8 : Split the first string using a specified character as the separator and display the resulting list.
+STEP 9 : Extract a portion of the first string using string slicing and display the substring.
+STEP 10 : Replace a particular character in the first string with another character and display the modified string.
+STEP 11 : Find and display the length of the second string.
+STEP 12 : Search for the position of a particular character in the second string using a string searching function and display the result.
+STEP 13 : Convert the second string into title case and display the output.
+STEP 14 : Display the first and last characters of the first string using indexing.
+STEP 15 : Count the number of occurrences of the character 'a' in the first string and display the result.
+STEP 16 : Change uppercase letters to lowercase and lowercase letters to uppercase using swapcase and display the result.
+STEP 17 : Ask the user to enter a word that needs to be searched in the first string.
+STEP 18 : Check whether the entered word is present in the first string.
+         > If present, display "Word found".
+         > Otherwise, display "Word not found".
+STEP 19 : Stop the program.
