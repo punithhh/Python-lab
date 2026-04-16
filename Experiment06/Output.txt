@@ -1,0 +1,241 @@
+OUTPUT :
+===== PHONEBOOK MENU =====
+1. Add Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact
+5. Display All Contacts
+6. Display All Names (Keys)
+7. Display All Numbers (Values)
+8. Display All Entries (Items)
+9. Count Contacts
+10. Copy Phonebook
+11. Clear Phonebook
+12. Exit
+Enter your choice: 1
+Enter name: TINA
+Enter phone number: 9090987878
+Contact added successfully.
+
+===== PHONEBOOK MENU =====
+1. Add Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact
+5. Display All Contacts
+6. Display All Names (Keys)
+7. Display All Numbers (Values)
+8. Display All Entries (Items)
+9. Count Contacts
+10. Copy Phonebook
+11. Clear Phonebook
+12. Exit
+Enter your choice: 1
+Enter name: NIDHI
+Enter phone number: 9876767654
+Contact added successfully.
+
+===== PHONEBOOK MENU =====
+1. Add Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact
+5. Display All Contacts
+6. Display All Names (Keys)
+7. Display All Numbers (Values)
+8. Display All Entries (Items)
+9. Count Contacts
+10. Copy Phonebook
+11. Clear Phonebook
+12. Exit
+Enter your choice: 1
+Enter name: TOM
+Enter phone number: 8787678909
+Contact added successfully.
+
+===== PHONEBOOK MENU =====
+1. Add Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact
+5. Display All Contacts
+6. Display All Names (Keys)
+7. Display All Numbers (Values)
+8. Display All Entries (Items)
+9. Count Contacts
+10. Copy Phonebook
+11. Clear Phonebook
+12. Exit
+Enter your choice: 1
+Enter name: ALISHA
+Enter phone number: 9876098709
+Contact added successfully.
+
+===== PHONEBOOK MENU =====
+1. Add Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact
+5. Display All Contacts
+6. Display All Names (Keys)
+7. Display All Numbers (Values)
+8. Display All Entries (Items)
+9. Count Contacts
+10. Copy Phonebook
+11. Clear Phonebook
+12. Exit
+Enter your choice: 2
+Enter name to update: TOM
+Enter new number: 789876788
+Contact updated.
+
+===== PHONEBOOK MENU =====
+1. Add Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact
+5. Display All Contacts
+6. Display All Names (Keys)
+7. Display All Numbers (Values)
+8. Display All Entries (Items)
+9. Count Contacts
+10. Copy Phonebook
+11. Clear Phonebook
+12. Exit
+Enter your choice: 4
+Enter name to search: TINA
+Phone number: 9090987878
+
+===== PHONEBOOK MENU =====
+1. Add Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact
+5. Display All Contacts
+6. Display All Names (Keys)
+7. Display All Numbers (Values)
+8. Display All Entries (Items)
+9. Count Contacts
+10. Copy Phonebook
+11. Clear Phonebook
+12. Exit
+Enter your choice: 5
+
+All Contacts:
+TINA : 9090987878
+NIDHI : 9876767654
+TOM : 789876788
+ALISHA : 9876098709
+
+===== PHONEBOOK MENU =====
+1. Add Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact
+5. Display All Contacts
+6. Display All Names (Keys)
+7. Display All Numbers (Values)
+8. Display All Entries (Items)
+9. Count Contacts
+10. Copy Phonebook
+11. Clear Phonebook
+12. Exit
+Enter your choice: 6
+Names: ['TINA', 'NIDHI', 'TOM', 'ALISHA']
+
+===== PHONEBOOK MENU =====
+1. Add Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact
+5. Display All Contacts
+6. Display All Names (Keys)
+7. Display All Numbers (Values)
+8. Display All Entries (Items)
+9. Count Contacts
+10. Copy Phonebook
+11. Clear Phonebook
+12. Exit
+Enter your choice: 7
+Numbers: ['9090987878', '9876767654', '789876788', '9876098709']
+
+===== PHONEBOOK MENU =====
+1. Add Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact
+5. Display All Contacts
+6. Display All Names (Keys)
+7. Display All Numbers (Values)
+8. Display All Entries (Items)
+9. Count Contacts
+10. Copy Phonebook
+11. Clear Phonebook
+12. Exit
+Enter your choice: 8
+Entries: [('TINA', '9090987878'), ('NIDHI', '9876767654'), ('TOM', '789876788'), ('ALISHA', '9876098709')]
+
+===== PHONEBOOK MENU =====
+1. Add Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact
+5. Display All Contacts
+6. Display All Names (Keys)
+7. Display All Numbers (Values)
+8. Display All Entries (Items)
+9. Count Contacts
+10. Copy Phonebook
+11. Clear Phonebook
+12. Exit
+Enter your choice: 9
+Total contacts: 4
+
+===== PHONEBOOK MENU =====
+1. Add Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact
+5. Display All Contacts
+6. Display All Names (Keys)
+7. Display All Numbers (Values)
+8. Display All Entries (Items)
+9. Count Contacts
+10. Copy Phonebook
+11. Clear Phonebook
+12. Exit
+Enter your choice: 10
+Copied Phonebook: {'TINA': '9090987878', 'NIDHI': '9876767654', 'TOM': '789876788', 'ALISHA': '9876098709'}
+
+===== PHONEBOOK MENU =====
+1. Add Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact
+5. Display All Contacts
+6. Display All Names (Keys)
+7. Display All Numbers (Values)
+8. Display All Entries (Items)
+9. Count Contacts
+10. Copy Phonebook
+11. Clear Phonebook
+12. Exit
+Enter your choice: 3
+Enter name to delete: ALISHA
+Contact deleted.
+
+===== PHONEBOOK MENU =====
+1. Add Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact
+5. Display All Contacts
+6. Display All Names (Keys)
+7. Display All Numbers (Values)
+8. Display All Entries (Items)
+9. Count Contacts
+10. Copy Phonebook
+11. Clear Phonebook
+12. Exit
+Enter your choice: 12
+Exiting program...
