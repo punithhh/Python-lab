@@ -1,0 +1,26 @@
+OUTPUT :
+Enter number of elements: 8
+Enter element: 20
+Enter element: 40
+Enter element: 60
+Enter element: 60
+Enter element: 80
+Enter element: 100
+Enter element: 120
+Enter element: 140
+
+Tuple elements: (20, 40, 60, 60, 80, 100, 120, 140)
+Length of tuple: 8
+First element: 20
+Last element: 140
+Tuple slice (first three elements): (20, 40, 60)
+Enter element to count: 60
+Count of element: 2
+Enter element to find index: 80
+Index of element: 4
+Maximum element: 140
+Minimum element: 20
+Sum of elements: 620
+Sorted tuple: (20, 40, 60, 60, 80, 100, 120, 140)
+Tuple after concatenation: (20, 40, 60, 60, 80, 100, 120, 140, 100, 200)
+Tuple after repetition: (20, 40, 60, 60, 80, 100, 120, 140, 20, 40, 60, 60, 80, 100, 120, 140)
