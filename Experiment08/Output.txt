@@ -1,0 +1,21 @@
+OUTPUT :
+Enter email: rafshajabin24@gmail.com
+
+Using match():
+Starts with: rafshajabin
+
+Using search():
+@ symbol found
+
+Using findall():
+['rafshajabin24', 'gmail', 'com']
+
+Using split():
+['rafshajabin24', 'gmail.com']
+
+Using sub():
+rafshajabin24@gmail_com
+
+Using finditer():
+Digit 2 at position 11
+Digit 4 at position 12
