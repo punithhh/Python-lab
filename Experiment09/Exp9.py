@@ -1,27 +1,15 @@
-PROGRAM :
-import numpy as np
 import pandas as pd
 
-# NumPy Arrays
-a = np.array([1, 2, 3])
-b = np.array([4, 5, 6])
-
-print("Array A:", a)
-print("Array B:", b)
-
-print("Addition:", a + b)
-print("Multiplication:", a * b)
-
-# Pandas Series
-s = pd.Series([100, 200, 300])
-print("\nPandas Series:")
-print(s)
-
-# Pandas DataFrame
-df = pd.DataFrame({
-    "Product": ["Pen", "Book", "Bag"],
-    "Price": [10, 50, 500]
+data = pd.DataFrame({
+    "names": ["Aman", "Riya", "Karan", "Sneha", "Arjun", "Neha", "Rohit", "Pooja", "Vikram", "Anjali"],
+    "age": [20, 21, 22, 20, 23, 21, 22, 20, 24, 23],
+    "marks": [85, 90, 78, 88, 92, 76, 81, 89, 95, 87],
+    "grades": ["A", "A+", "B", "A", "A+", "B", "B+", "A", "A+", "A"],
+    "cities": ["Delhi", "Mumbai", "Chennai", "Kolkata", "Pune", "Hyderabad", "Jaipur", "Goa", "Kochi", "Lucknow"],
+    "subjects": ["Math", "Science", "English", "History", "Physics", "Chemistry", "Biology", "Geo", "CS", "Economics"],
+    "hobbies": ["Reading", "Gaming", "Music", "Dance", "Sports", "Drawing", "Singing", "Travel", "Coding", "Photography"],
+    "devices": ["Phone", "Laptop", "Tablet", "PC", "Phone", "Laptop", "Tablet", "PC", "Phone", "Laptop"],
+    "food": ["Pizza", "Burger", "Pasta", "Rice", "Noodles", "Biryani", "Fries", "Sandwich", "Cake", "Ice Cream"],
+    "status": ["Pass", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass"]
 })
-
-print("\nPandas DataFrame:")
-print(df)
+print(data)
